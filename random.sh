@@ -1,4 +1,2 @@
-for ((COUNT = 1; COUNT <= 10; COUNT++)); do
-  echo $COUNT
-  sleep 1
-done
+#!/bin/bash
+dd if=/dev/random bs=1000 count=10 #outputs binary data
